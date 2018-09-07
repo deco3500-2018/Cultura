@@ -1,5 +1,5 @@
 # Culture Fever
-Application help users explore other countries to provide insights on their cultures
+Application to help users explore other countries and provide insights on their cultures in interactive way
 
 # Proposal
 [Project Proposal](https://github.com/deco3500-2018/Matcha/wiki/Project-Proposal)
@@ -7,5 +7,5 @@ Application help users explore other countries to provide insights on their cult
 # Team
 Aisyah Hanifiah
 Nur Syafiqah
-Jiawei Liu 
+Jiawei Liu
 Jiaxin Ai
