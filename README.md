@@ -6,6 +6,9 @@ Application to help users explore other countries and provide insights on their 
 
 # Team
 Aisyah Hanifiah
+
 Nur Syafiqah
+
 Jiawei Liu
+
 Jiaxin Ai
