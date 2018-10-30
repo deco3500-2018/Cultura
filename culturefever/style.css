@@ -1,0 +1,721 @@
+/* CSS files add styling rules to your content */
+
+/*
+Theme Name: freelancer
+Author: Aisyah Hanifiah
+Description: Bootstrap Blog template converted to WordPress
+Version: 4.5.3
+Tags: bootstrap
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat');
+@font-face {
+    font-family: Autumn;
+    src: url(https://cdn.glitch.com/84f39cd2-08a8-4874-9089-0d09be7f2bed%2FAutumn%20in%20November.ttf?1538957262669);
+}
+
+
+@font-face {
+    font-family: little;
+    src: url(https://cdn.glitch.com/84f39cd2-08a8-4874-9089-0d09be7f2bed%2FLittleLordFontleroyNF.otf?1538961794163);
+}
+
+.title12 {
+  font-family: Autumn;
+}
+
+.title09 {
+  font-family:little;
+}
+/*
+*{
+  font-family:Sansation_Light !important;
+
+}
+/* font-family:Sansation_Light !important; */
+
+/*section.portfolio>.ui.label{
+  border-radius: 0px!important;
+}*/
+
+/*.ui.fluid.button{
+    height:100px;
+}*/
+
+.howto1.ui.items>.item>.image{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.howto1{
+font-family: 'Montserrat', sans-serif;
+}
+
+.howto1 p{
+    font-size: 16px;
+}
+
+section.howto{
+  background-color: mintcream;
+}
+.txtpeach{
+  color: #edceb9;
+}
+
+.txtgreen{
+  color: #47e2cc;
+}
+
+.txtblue{
+  color: #4747f4;
+}
+
+.txtpink{
+  color: thistle;
+}
+
+.introabout h1{
+font-family: 'Montserrat', sans-serif;
+  line-height: 1.60;
+  letter-spacing: 2px;
+  text-transform: none;
+  font-size: 45px;
+}
+section.introabout{
+  background-color: azure;
+  padding-top: 150px;
+  height: 730px;
+}
+
+section.myaccount{
+  background-color: thistle;
+  padding-top: 150px;
+
+}
+section.compare{
+  background-color: aliceblue;
+  padding-top: 150px;
+}
+.type-bread{
+
+}
+
+.type-bread>.breadcrumb{
+
+  background-color: unset;
+}
+
+section.type_list{
+    background-color: aliceblue;
+  padding-top: 150px;
+}
+
+
+.my.ui.dropdown .menu .item{
+  
+  color: white;
+font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 11.5px;
+  font-weight: bold;
+}
+.my.ui.dropdown .menu .item:hover{
+  
+      background: rgba(0, 0, 0, 0.2);
+}
+
+.my.ui.dropdown .menu{
+  background-color: #1a3263;
+  
+  border-radius: 0px;
+  box-shadow: none;
+  border:none;
+}
+section.addnew{
+  background-color: aliceblue;
+  padding-top: 150px;
+}
+section.about{
+  /*padding-top:150px;*/
+}
+.detail-text>.ui.breadcrumb{
+  padding-left: unset;
+}
+
+
+
+.detail-text>.breadcrumb{
+
+  background-color: unset;
+}
+.detail-text>.ui.items > .item > .image > img{
+  border-radius: 7px;
+}
+
+.detail-text a,.detail-text p{
+  color: black;
+}
+section.detail{
+  background: aliceblue;
+  color: white;
+  padding-top:150px;
+  height:auto;
+  min-height: 640px;
+}
+.details-img img{
+  width: 100%;
+  height: 100%!important;
+  margin-top: 10px;
+}
+
+.details-img{
+  height: 300px;
+  width: 450px;
+}
+
+/*#prodetails img{
+  width: 480px;
+  height: 480px;
+  margin-right: 70px;
+  margin-left: 50px;
+}*/
+
+.img-desc p{
+  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical; 
+}
+
+.addedby{
+  font-family: Karla, sans-serif; 
+  padding-bottom: 15px;
+}
+section.signin {
+  background: #4957a7;
+  color: white;
+  padding-top:150px;
+  height:640px;
+}
+
+section.voting {
+  background: mediumseagreen;
+  color: white;
+  padding-top:150px;
+  height:auto;
+  min-height: 640px;
+}
+
+section.register {
+  background: #4957a7;
+  color: white;
+  padding-top:150px;
+  height:640px;
+}
+
+.sign-in>.form-group.ui.selection.dropdown {
+    display: block;
+    width: unset!important;
+    min-width: 0em;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+      font-weight:700;
+    height: 50px;
+    width: 100%;
+  padding-top:16px;
+  margin-bottom:25px;
+}
+
+.sign-in>.form-group.ui.selection.dropdown>.default.text {
+    color:grey;
+}
+
+.sign-in>.form-group.ui.selection.dropdown>.dropdown.icon {
+    padding-top:16px;
+}
+
+    .sign-in  input[type=text],
+    .sign-in  input[type=email],
+    .sign-in  input[type=password],
+    .sign-in input[type=hidden]{
+      font-family: 'Montserrat', sans-serif;
+    color: black;
+      font-weight:700;
+    height: 50px;
+    width: 100%;
+    }
+
+
+.sign-in input[type=text]::-webkit-input-placeholder,
+    .sign-in input[type=email]::-webkit-input-placeholder,
+    .sign-in input[type=password]::-webkit-input-placeholder,
+.sign-in input[type=hidden]::-webkit-input-placeholder{
+      color: grey !important;
+    }
+
+.sign-in .btn {
+      font-family: 'Montserrat', sans-serif;
+      color: #F2F2F2 !important;
+      background: #F93C68;
+      font-weight: bold;
+      width: 100%;
+      letter-spacing: 4px;
+      margin-bottom: 15px;
+      line-height: 1.5;
+      font-size: 14px;
+      
+      cursor: pointer;
+    }
+
+.sign-in a{
+  color: white;
+}
+
+.sign-in {
+ 
+  display: inline-block;
+  width: 100%;
+  
+  border-radius: 3px;
+}
+
+.card-inside a{
+  color: #000;
+    text-decoration: none;
+}
+
+.card-inside > .header a{
+  color: #18BC9C;
+    text-decoration: none;
+}
+
+.card-inside a:hover, .card-inside a:focus, .card-inside a:active, .card-inside a.active{
+  color: #18BC9C;
+    outline: none;
+}
+
+
+.img-desc{
+  height:100px;
+  margin-bottom: 30px;
+      font-family: Karla, sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+
+.desc-img img{
+  width: 100%;
+  height: 100%!important;
+  margin-top: 10px;
+}
+
+.desc-img{
+  height: 190px;
+  width: 345px;
+}
+
+/*.desc-img>.ui.image img{
+  height: unset;
+}*/
+/*.desc-img img{
+  height:100px;
+  padding-bottom:20px;
+    padding-top:10px;
+  text-align:center;
+      height: 200px!important;
+    width: auto!important;
+  max-width: unset!important;
+
+}*/
+
+.desc-small{
+  margin:20px;
+}
+
+.desc-home, .desc-home>.card-inside>.header{
+      font-family: 'Karla', sans-serif !important;
+    font-size: 14px!important;
+}
+
+.card-out>.card-inside{
+  height:auto;
+}
+/* .card-inside{
+  position:absolute!important;
+  top:unset!important;
+  bottom:0!important;
+} */
+
+a {
+    color: #4183C4;
+    text-decoration: none;
+}
+a, a:hover, a:focus, a:active, a.active {
+    color: #18BC9C;
+    outline: none;
+}
+
+
+.ui.cards > .card, .ui.card{
+  display:inline-block!important;
+  width: 45%!important;
+/*   height: 300px!important; */
+  height: auto!important;
+  margin: 20px!important;
+}
+.compare.ui.card{
+  display:inline-block!important;
+  width: 88%!important;
+/*   height: 300px!important; */
+  height: auto!important;
+  margin: 30px!important;
+}
+#mainNav{
+  background-color:#1a3263;
+}
+
+.dd{
+  height: auto;
+  margin-bottom:20px;
+}
+
+.ui.fluid.dropdown.dd{
+    min-width: unset!important;
+    font-size: 20px;
+
+}
+
+.headerwiggly{
+  height: 32px;
+  width: 100%;
+  display: block;
+  background: url("https://cdn.glitch.com/84f39cd2-08a8-4874-9089-0d09be7f2bed%2Fheaderw.png?1537335849669");
+  background-repeat: repeat-x;
+  text-align: center;
+}
+
+.navbar-custom {
+  padding-top: 0;
+  background-color: #fafafa;
+}
+
+.navbar-custom.affix {
+  padding-top: 0;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-left: 0;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+/* .navbar-header {
+  float: left;
+} */
+
+
+
+.navbar-brand {float:none;}
+
+#introtext{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+#code {
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 30px;
+  background: #E7E6E7;
+  font-family: 'Karla';
+  text-align: left;
+  font-size: 13px;
+  color: #fafafa;
+  margin-bottom: 100px;
+}
+
+.answer{
+  color: #ccc;
+
+}
+
+#console p{
+  display: inline;
+}
+
+#console {
+  margin-top: 15px;
+  padding: 40px;
+  margin: 0 auto;
+  background: #383737;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+#groupcircle{padding-left: 10px;}
+#red{background-color: #FF625A;}
+#yellow{background-color: #FFBE2F;}
+#green{background-color: #28CA40;}
+
+
+
+.portfolio-thumb {
+    /*width: 432.5px;*/
+    width: 45%;
+    height:300px;
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+    padding: 15px;
+  border-radius:5px;
+}
+
+.portfolio-big {
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+    /* height: 680px; */
+}
+
+.portfolio-thumb p, .portfolio-big p {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  padding: 0px 25px 25px 25px;
+  margin-top: 14px;
+}
+
+@media screen and (max-width: 1000px){
+  .portfolio-thumb {
+    width: auto;
+  }
+}
+
+.help-block{
+  color: #cc0000;
+}
+
+.help-block ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+
+.btn-primary {
+  color: #000;
+  background: none;
+  border-color: black;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #000;
+  background: none;
+  border-color: black;
+  outline:0;
+}
+.btn-primary:hover {
+  color: #000;
+  background: none;
+  border-color: black;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #000;
+  background: none;
+  border-color: black;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #000;
+  background: none;
+  border-color: black;
+  outline:0;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background: none;
+  border-color: black;
+  outline:0;
+}
+
+
+.btn-primary.raised {
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 5px 0 0 #000;
+  border-color: black;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.btn-primary.raised:active, .btn-primary.raised.active {
+  /*background: #33a6cc;*/
+  box-shadow: none;
+  margin-bottom: -4px;
+  margin-top: 4px;
+}
+
+#contactForm{
+  font-family: 'Karla', sans-serif;
+}
+
+footer .footer-below a{
+  text-decoration: none;
+  color: black;
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  font-size: 100px;
+  color: #18BC9C;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
+.illustration img {
+  padding-top: 38px;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom{
+    padding-bottom: 35px;
+  }
+
+  .navbar-brand {
+     float: left; 
+}
+}
+
+@media (max-width: 1200px){
+  .cd-top {
+  
+  bottom: 5px;
+  right: 20px;
+  font-size: 70px;
+ 
+}
+}
+
+@media (min-width: 768px){
+.navbar-brand {
+    margin-left: 0;
+  }
+}
+
+.mainheader{
+  padding-top:20px;
+}
+
+/*piqa style about us*/
+/* Three columns side by side */
+.columnUs {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .columnUs {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.containerUs {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.containerUs::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.titleUs {
+    color: grey;
+}
+
